@@ -7,6 +7,7 @@ export default function App() {
 
   return (
     <div style={{ padding: '20px', fontFamily: 'sans-serif' }}>
+      <style>{`.app {background: #fff; height: 100vh;}`}</style>
       <h1>Hello {name}! 👋</h1>
 
       <div style={{ margin: '20px 0' }}>
